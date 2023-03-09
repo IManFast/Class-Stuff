@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Isiah's About Me! </title>
+	<meta name="keywords" content="Isiah, Dodson, 2023">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<style>
+	body {background-color: powderblue;}
+	h1 {color: black}
+	h2 {color: red}
+	p {color: black}
+	
+	table, th, td {
+		border: 1px solid white;
+		border-collapse: collapse;
+	}
+	th, td {
+		background-color: #96D4D4;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="font-size:50px;"> Welcome to Isiah's About me! </h1>
+	<img src="starrparklogo.png" width="284" height="284">
+	<hr>
+<! -- Intro to myself, Isiah Dodson -->	
+	<h2 style="font-size: 30px;">Overview</h2>
+		<p> Hello there, my name is Isiah Dodson. I'm a computer science major and track & field athlete at the University of LaVerne. I'm a junior in this sprint semester and I am 21 years old. I've been enjoying coding for a long time and want to keep improving at it to the point where I can get a good and stable job with it. I also enjoy playing video games on my free time such as Minecraft or Genshin Impact! I hope to learn alot more in this class but this is a small about me section!
+		<hr>
+
+<! -- These are my goals -->			
+	<h2 style="font-size: 30px;">Goals</h2>
+	<ul>
+		<li>Focus on school and get good grades</li>
+		<li>Work on Homework and focus on studying when I can</li>
+		<li>Get better at time management that can help me really focus and get stuff done</li>
+	</ul>
+		<hr>
+<! -- Favorite Video for myself with the embed video from youtube using iframe-->		
+	<h2 style="font-size: 30px;">Favorite Video</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/cyRmxjhYrmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<p> This video is really good. Its funny and it goes through a game that just a big joke and can have alot of fun in. All in all, its a really funny video as the editing really helps with making it funny!</p>
+	<hr>
+	
+<! -- my current class schedule for this semester-->			
+	<h2 style="font-size: 30px;">Course Schedule</h2>
+	<table class="classes">
+	<tr>
+		<th>Subject</th>
+		<th>Course Number</th>
+		<th>Course Name</th>
+		<th>Time</th>
+		<th>Place</th>
+	</tr>
+	<tr>
+		<th>Web Dev II</th>
+		<th>319</th>
+		<th>Publishing on the Web II</th>
+		<th>3:30-5:05 PM</th>
+		<th>Founders Hall</th>
+	</tr>
+	<tr>
+		<th>Physics II</th>
+		<th>202</th>
+		<th>General Physics II</th>
+		<th>9:25-11:00 AM</th>
+		<th>Mainiero Building</th>
+	</tr>
+	<tr>
+		<th>Physics II Lab</th>
+		<th>202</th>
+		<th>General Physics II LAB</th>
+		<th>8:40 AM -12:00 PM</th>
+		<th>Mainiero Building</th>
+	</tr>
+	<tr>
+		<th>Computer Networks</th>
+		<th>368</th>
+		<th>prin of Computer Networks</th>
+		<th>6:00 - 9:20 PM</th>
+		<th>Founders Hall</th>
+	</tr>
+	</table>
+	<hr>
+
+<! --Full contact page for myself with form and fieldset-->			
+	<h2 style="font-size: 30px;">Contact</h2>
+	
+	<form action="/action_page.php">
+	<fieldset>
+		<legend>Contact!</legend>
+		<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname"><br><br>
+		<label for="lname">Last Name:</label>
+			<input type="text" id="lname" name="lname"><br><br>
+		<label for="pone">Phone Number:</label>
+			<input type="text" id="pone" name="pone"><br><br>
+		<label for="mail">Email:</label>
+			<input type="text" id="mail" name="mail" autocomplete="off"><br><br>
+		<textarea name="message' rows="10" cols="30">Enter your message here! </textarea> <br><br>
+		<label for="severity"> What is the Severity of the message: </label>
+		<select id="severity" name="severity">
+			<option value="minor">Minor</option>
+			<option value="minor">Major</option>			
+			<option value="minor">Critical</option>	
+		</select> <br><br>
+		<label for="rating"> Rate my page (between 0 and 10): </label>
+			<input type="range" id="rate" name="rate" min="0" max="10"> <br><br>
+		
+		<input type="submit" value="Submit">
+		</form>
+
+</body>
+</html>
+	
